@@ -29,7 +29,7 @@ Make sure your plugin or theme hasn't already been suggested, you can try search
 
 If you'd like to take a plugin/theme that's _"Up for grabs"_ and work on it, you'll need to reply to the issue and let us know that's what you intend to do. Once you do this, we'll assign you and mark the issue as _"Work in progress"_ in order to let others know too.
 
-Before you take up a request make sure you have the time or energy to complete it. If you later decide to give up for any reason - please let us know so that we can unassign you and relable the issue.
+Before you take up a request make sure you have the time or energy to complete it. If you later decide to give up for any reason - please let us know so that we can unassign you and relabel the issue.
 
 ### I finished the plugin/theme
 

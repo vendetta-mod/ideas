@@ -29,7 +29,7 @@ body:
   - type: checkboxes
     id: duplicate-check
     attributes:
-      label: 
+      label:  
       description: Before you submit this request make sure to [check other issues](https://github.com/vendetta-mod/ideas/issues) in case its already been requested
       options:
         - label: I have verified that this request is indeed original

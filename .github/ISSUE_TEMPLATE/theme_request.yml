@@ -1,0 +1,36 @@
+name: Theme Request
+description: Suggest your idea for a beautiful looking theme!
+labels: [Up for grabs,Theme]
+body:
+  - type: input
+    id: discord
+    attributes:
+      label: Discord username
+      description: Who are you on Discord? Not required
+      placeholder: User#000 or @user
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Theme description
+      description: Describe the theme in simple terms
+      placeholder: Maybe we should have a theme based on...
+    validations:
+      required: true
+  - type: textarea
+    id: extended-description
+    attributes:
+      label: More details
+      description: Get into more detail about this theme, try to include desired colors or reference images
+      placeholder: This theme should use a good amount of...
+    validations:
+      required: false
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: ​
+      description: Before you submit this request make sure to [check other issues](https://github.com/vendetta-mod/ideas/issues) in case its already been requested
+      options:
+        - label: I have verified that this request is indeed original
+          required: true

@@ -1,0 +1,36 @@
+name: Plugin Request
+description: Suggest your idea for a cool or useful plugin!
+labels: [Up for grabs,Plugin]
+body:
+  - type: input
+    id: discord
+    attributes:
+      label: Discord username
+      description: Who are you on Discord? Not required
+      placeholder: User#000 or @user
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Plugin description
+      description: Describe the plugin as simply as possible
+      placeholder: Maybe we should have a plugin that...
+    validations:
+      required: true
+  - type: textarea
+    id: extended-description
+    attributes:
+      label: Elaborate
+      description: Get into more detail about this plugin
+      placeholder: It would be really cool if the plugin could...
+    validations:
+      required: false
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: 
+      description: Before you submit this request make sure to [check other issues](https://github.com/vendetta-mod/ideas/issues) in case its already been requested
+      options:
+        - label: I have verified that this request is indeed original
+          required: true
